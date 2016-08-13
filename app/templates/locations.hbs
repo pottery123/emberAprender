@@ -1,9 +1,10 @@
-<h2>Location Tracker</h2>
+
 {{outlet}}
 
-<div>
 
-    {{#each model as |somthing|}}
-    <br>{{somthing.location_type}}
+
+    {{#each model as |loca|}}
+    {{#link-to "location" model.location_id }}
+    {{loca.location_type}}<br>
+    {{/link-to}}
     {{/each}}
-</div>
