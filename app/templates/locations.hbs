@@ -4,7 +4,8 @@
 
 
     {{#each model as |loca|}}
-    {{#link-to "location" loca }}
+    {{#link-to "location" loca.id }}
+    {{log loca}}
     {{loca.location_type}}<br>
     {{/link-to}}
     {{/each}}
