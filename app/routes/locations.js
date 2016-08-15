@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   ajax: Ember.inject.service(),
   model(params) {
   console.log(params)
-  return this.get('ajax').request('http://localhost:3000/locations');
+  return this.get('ajax').request('https://aprenderapi.herokuapp.com');
 },
 
 queryParams:{
