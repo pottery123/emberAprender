@@ -1,1 +1,40 @@
+body{
+  background-color: rgb(240,120,24);
+}
 
+.location {
+
+}
+.location:hover {
+	background-color:#5cbf2a;
+}
+.location:active {
+	position:relative;
+	top:1px;
+}
+
+.portugueseEnglish {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#78C0A8;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:32px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.portugueseEnglish:hover {
+	background-color:#f6f6f6;
+}
+.portugueseEnglish:active {
+	position:relative;
+	top:1px;
+}

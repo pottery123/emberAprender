@@ -4,8 +4,15 @@
 
 
     {{#each model as |loca|}}
-    {{#link-to "location" loca.id }}
-    {{log loca}}
-    {{loca.location_type}}<br>
+
+
+      {{#link-to "location" loca.id }}
+
+
+    <div class='location'>
+      {{loca.location_type}}<br>
+    </div>
+
     {{/link-to}}
+
     {{/each}}
