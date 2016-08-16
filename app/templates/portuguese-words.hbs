@@ -5,14 +5,19 @@
     <div>
 
 
-        <div class="englishFlashcard">
+        <div id="englishFlashcard">
           {{words.english}}
         </div>
 
 
-      <div class="portugueseFlashcard">
-        {{words.portuguese}}
-      </div>
+        <form{{action "hideWord"}}>
+
+        <div id="portugueseFlashcard">
+          {{words.portuguese}}
+        </div>
+
+
+        </form>
     </div>
 
       {{/each}}

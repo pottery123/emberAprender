@@ -41,7 +41,7 @@ body{
 
 
 
-.englishFlashcard{
+#englishFlashcard{
   float:left;
   width: 80%;
   margin: 5px 0px 5px 10px;
@@ -52,7 +52,7 @@ body{
 
 }
 
-.portugueseFlashcard{
+#portugueseFlashcard{
   float:left;
   width: 80%;
   margin: 5px 0px 5px 10px;
