@@ -38,3 +38,27 @@ body{
 	position:relative;
 	top:1px;
 }
+
+
+
+.englishFlashcard{
+  float:left;
+  width: 80%;
+  margin: 5px 0px 5px 10px;
+  display: inline-block;
+   height: 100px;
+   width: 100px;
+   background: #BFFF00;
+
+}
+
+.portugueseFlashcard{
+  float:left;
+  width: 80%;
+  margin: 5px 0px 5px 10px;
+  display: inline-block;
+   height: 100px;
+   width: 100px;
+   background: #BFFF00;
+
+}

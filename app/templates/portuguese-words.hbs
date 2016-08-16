@@ -2,13 +2,17 @@
 
 
     {{#each model as |words|}}
-      <div class="englishFlashcard">
-        {{words.english}}
+    <div>
 
-      </div>
+
+        <div class="englishFlashcard">
+          {{words.english}}
+        </div>
+
+
       <div class="portugueseFlashcard">
         {{words.portuguese}}
-
       </div>
+    </div>
 
       {{/each}}
