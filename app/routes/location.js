@@ -12,6 +12,6 @@ model(params) {
 queryParams:{
   number:{
     refreshModel: true
-  }
-}
+    }
+  } 
 });
