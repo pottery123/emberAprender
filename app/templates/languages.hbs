@@ -1,0 +1,9 @@
+{{outlet}}
+{{log model}}
+
+{{#each model as |lang|}}
+  {{#link-to "location"}}
+  <div class='portugueseEnglish'>
+    {{lang.name}}
+  </div>
+{{/each}}

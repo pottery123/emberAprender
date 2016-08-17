@@ -1,13 +1,7 @@
 {{outlet}}
-
-
-
-    {{#each model as |words|}}
-
+  {{#each model as |words|}}
     <div class='portugueseEnglish'>
-      {{words.portuguese}}
-      {{words.english}}
+      {{words.translation}}
+      {{words.primarylanguage}}
     </div>
-
-
-    {{/each}}
+  {{/each}}

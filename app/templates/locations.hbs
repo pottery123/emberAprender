@@ -1,21 +1,8 @@
-
 {{outlet}}
-
-
-
-    {{#each model as |loca|}}
-
-
-      {{#link-to "location" loca.id }}
-
-
-    <div class='location'>
-      {{loca.location_type}}<br>
-    </div>
-
+  {{#each model as |loca|}}
+    {{#link-to "location" loca.id }}
+      <div class='location'>
+        {{loca.name}}<br>
+      </div>
     {{/link-to}}
-
-    {{/each}}
-
-
-  
+  {{/each}}
