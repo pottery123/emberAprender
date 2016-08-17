@@ -2,9 +2,5 @@
 {{log model}}
 
 {{#each model as |lang|}}
-  <div class='portugueseEnglish'>
-  
-    {{lang.name}}
-
-  </div>
+<button{{action "setLanguage" lang.name}}>{{lang.name}}</button>
 {{/each}}
