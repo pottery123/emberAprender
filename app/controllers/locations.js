@@ -6,9 +6,11 @@ export default Ember.Controller.extend({
   ajax: Ember.inject.service(),
   actions: {
     getId(id){
-       //this.set('model.n', this.get('model.n').addObject(it))
-      this.number.addObject(id)
-      console.log(this.number)
+      this.transitionToRoute('language')
+
+      //this.set('model.n', this.get('model.n').addObject(id))
+      //this.number.addObject(id)
+      //console.log(this.number)
 
     }
   }

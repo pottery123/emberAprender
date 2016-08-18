@@ -1,12 +1,9 @@
 {{outlet}}
+  {{#each model.data as |language|}}
+    <div class='portugueseEnglish'>
+      {{language.name}}
+      {{language.name}}
+    </div>
 
-{{#each model.l as |lang|}}
-<!--<button{{action "setLanguage" lang.name}}>{{lang.name}}</button>-->
-{{#link-to "language" 2 lang.name }} {{lang.name}}{{/link-to}}
-{{log model}}
-{{/each}}
-
-
-{{#each model.n as |n|}}
-    {{log model.n}}
+    {{log model}}
   {{/each}}

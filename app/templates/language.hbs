@@ -1,15 +1,6 @@
 {{outlet}}
-<h2>hello</h2>
-  {{#each model as |lang|}}
 
-  <div>
-    {{lang.primarylanguage}}
+
+  <div class='portugueseEnglish'>
+  {{ model.data.name}}
   </div>
-
-  <div>
-    {{lang.translation}}
-  </div>
-
-  {{log params}}
-
-{{/each}}

@@ -6,11 +6,11 @@ work: [],
 
 ajax: Ember.inject.service(),
 actions: {
-  setLanguage(language){
-    this.work.addObject(language)
-    console.log(this.work)
+      getName(name){
+        this.transitionToRoute('locations')
+      }
+
   }
-}
 
 
 });
