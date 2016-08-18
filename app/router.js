@@ -8,9 +8,12 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('locations',function(){})
+
   this.route('location',   {path: '/locations/:location_id' })
+
   this.route('language',   {path: '/locations/:id/:language'})
-  this.route('languages');
+
+  this.route('languages', {path: '/languages'});
 });
 
 export default Router;

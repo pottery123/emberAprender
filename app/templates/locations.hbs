@@ -1,6 +1,7 @@
 {{outlet}}
   {{#each model as |loca|}}
-    {{#link-to "location" loca.id }}
+  <button {{action "getId" loca.id}}> {{loca.name}}</button>
+  <!--  {{#link-to 'location'  loca.id }}-->
       <div class='location'>
         {{loca.name}}<br>
       </div>

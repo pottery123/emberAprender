@@ -1,6 +1,12 @@
 {{outlet}}
-{{log model}}
 
-{{#each model as |lang|}}
-<button{{action "setLanguage" lang.name}}>{{lang.name}}</button>
+{{#each model.l as |lang|}}
+<!--<button{{action "setLanguage" lang.name}}>{{lang.name}}</button>-->
+{{#link-to "language" 2 lang.name }} {{lang.name}}{{/link-to}}
+{{log model}}
 {{/each}}
+
+
+{{#each model.n as |n|}}
+    {{log model.n}}
+  {{/each}}
